@@ -1,0 +1,80 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+  }
+  .right-navbar{
+    display:flex;
+    border: 1px solid red;
+    flex-direction:row;
+    align-items:center;
+    gap:32px;
+    padding: 8px;
+  }
+  .hero-area{
+    display:flex;
+    border:solid red 1px;
+    min-height:300px;
+    justify-content:center;
+    align-items:center;
+    gap:16px;
+  }
+  .hero-left,.hero-right{
+    border:1px solid red;
+  }
+  .hero-right{
+    min-width:400px;
+    min-height:200px;
+    background:red;
+  }
+  .cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 32px;
+  }
+  .card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .reviews{
+    border:1px solid blue;
+  }
+  .reviews h1{
+    text-align:center;
+  }
+  .reviewer-picture{
+    width:100px;
+    height:100px;
+    background:red;
+    border-radius:8px;
+  }
+  .quote{
+    border: 1px red solid;
+    background-color: beige;
+    padding: 16px;
+  }
+  .cta-sections{
+    border:1px solid red;
+    display:flex;
+    justify-content:center;
+    padding: 32px 64px
+  }
+  .cta-card{
+    display: flex;
+    align-items:center;
+    border:1px solid blue;
+    max-width:70%;
+    padding: 0 64px;
+    border-radius: 8px;
+    background-color:pink;
+  }
+  .footer{
+    display:flex;
+    justify-content:center;
+  }
+  .footer-item{
+    display:flex;
+    gap: 8px;
+  }
